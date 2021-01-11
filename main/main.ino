@@ -1,17 +1,9 @@
 #include <FastLED.h>
+#include "credentials.h"
 
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
-
-// You should get Auth Token in the Blynk App.
-// Go to the Project Settings (nut icon).
-char auth[] = "";
-
-// Your WiFi credentials.
-// Set password to "" for open networks.
-char ssid[] = "";
-char pass[] = "";
 
 // define timers to read
 BlynkTimer animationTimer;
