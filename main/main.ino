@@ -104,7 +104,6 @@ void playAnimation()
     if (solidColorAnimation == 1)
     {
         // no method is required
-        //        playWipeOutAnimation();
     }
     else if (wipeOutAnimation == 1)
     {
@@ -112,7 +111,7 @@ void playAnimation()
     }
     else if (rainbowAnimation == 1)
     {
-        //        rainbow(50);
+        // rainbow(50);
         theaterChaseRainbow();
     }
 }
